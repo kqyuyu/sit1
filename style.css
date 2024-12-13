@@ -1,0 +1,126 @@
+.anecdote {
+	text-align: center;
+	border: 30px solid transparent;
+	border-image: url('border1.png') 33% round;
+	padding: 10px;
+	margin: 50px 0px;
+}
+.anecdote-box {
+	border: 40px solid transparent;
+	border-image: url('border.png') 33% round;
+	border-image-outset:0.5;
+	border-radius: 5px; /*hlebniy corners*/
+	margin: 50px auto 100px;
+	text-align: center;
+	max-width: 300px;
+	width: 30%;
+	display: grid;
+	background-color: white;
+	padding: 10px 100px;
+}
+.site-name{
+	margin:auto;
+	display:block;
+}
+
+.grid-container {
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 500px;
+	position: sticky;
+	top: 0;
+}
+
+.grid-item {
+	text-align: center;
+	padding: 20px;
+	margin: 0px 10px;
+	background-image: url('hleb.jpg');
+	background-size:100% 100%;
+	;
+}
+
+.normal {
+	background-color: rosybrown;
+}
+
+.secret {
+	background-color: black;
+}
+
+footer {
+	text-align:center;
+}
+
+.vine {
+	display:block;
+	margin: auto;
+	width:100%;
+	max-width: 1000px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: none;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+	width:fit-content;
+	margin-bottom: 30px;
+	height:90vh;
+	justify-content:space-around;
+}
+
+.flex-item {
+	text-align: center;
+	margin-inline: 20px;
+	border: 2px #f0d5b1 solid;
+	background-color: #f0d5b1;
+	padding: 5px 30px;
+	border-radius: 5px;
+	margin-top: 100px;
+	align-self: center;
+}
+
+.flex-text {
+	max-width: 500px;
+	color: white;
+}
+
+.back {
+	border: 2px solid #f0d5b1;
+	background-color: #f0d5b1;
+	border-radius: 5px;
+	width: fit-content;
+	padding: 2px 5px;
+	position: fixed;
+	left:10px;
+}
+
+h1 {
+	border: 2px solid #f0d5b1;
+	background-color: #f0d5b1;
+	display:inline;
+	border-radius: 5px;
+	padding:5px;
+}
+
+.header {
+	text-align: center;
+	width: 100vw;
+	position: fixed;
+	margin-top: 10px;
+}
+
+p, h1,a {
+	font-family: arial;
+
+}
+
